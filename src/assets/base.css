@@ -1,0 +1,126 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  margin: 0;
+}
+* {
+  box-sizing: border-box;
+}
+button {
+  cursor: pointer;
+  font-family: inherit;
+  -webkit-appearance: none;
+  outline: none;
+  border: none;
+  padding: 0;
+}
+button:hover,
+button:focus,
+button:active,
+button:visited {
+  outline: none;
+}
+input {
+  border: none;
+  background-color: transparent;
+  padding: 0;
+  -webkit-appearance: none;
+}
+input:hover,
+input:focus,
+input:active,
+input:visited {
+  outline: none;
+}
+ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+h1,h2,h3,h4,h5,h6,p {
+  margin: 0;
+  word-break: break-word;
+}
+input {
+  width: 100%;
+  height: 41px;
+  padding-left: 10px;
+  font-size: 17px;
+  line-height: 12px;
+  font-weight: 300;
+  background-color: #fff;
+  border-radius: 5px;
+}
+select {
+  width: 100%;
+  height: 41px;
+  font-size: 17px;
+  line-height: 12px;
+  font-weight: 300;
+  background-color: #fff;
+  border-radius: 5px;
+}
+.auth {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100vh;
+  background-color: #18191d;
+}
+
+.auth__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  max-width: 450px;
+  background-color: #C3C3C3;
+}
+
+.auth-form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 20px 25px;
+}
+.auth-form__title {
+  font-size: 17px;
+}
+.auth-container__title {
+  display: flex;
+  justify-content: center;
+  font-size: 17px;
+  line-height: 50px;
+  width: 100%;
+  font-weight: 400;
+  background-color: #A5A5A5;
+}
+.auth-form__item {
+  width: 100%;
+}
+.auth-form__input {
+  margin-top: 20px;
+}
+.auth-form__input::placeholder {
+  font-size: 17px;
+}
+
+.form__submit-btn {
+  width: 100%;
+  height: 41px;
+  font-size: 17px;
+  color: #fff;
+  font-weight: 600;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  border-radius: 5px;
+  background-color: #519945;
+  transition: all .1s ease;
+}
+.form__submit-btn:not(:disabled):hover {
+  background-color: #6ab15d;
+}
+.auth-form__submit-btn:disabled {
+  cursor: not-allowed;
+  opacity: .5;
+}
